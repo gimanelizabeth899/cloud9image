@@ -25,7 +25,7 @@ jobs:
           context: .
           file: ./Dockerfile-base-focal
           push: true
-          tags: gvoze32/cloud9-base:focal
+          tags: gimanelizabeth899/cloud9-base:focal
 
   build-ubuntu22:
     runs-on: ubuntu-latest
@@ -48,7 +48,7 @@ jobs:
           context: .
           file: ./Dockerfile-base-jammy
           push: true
-          tags: gvoze32/cloud9-base:jammy
+          tags: gimanelizabeth899/cloud9-base:jammy
 
   build-ubuntu24:
     runs-on: ubuntu-latest
@@ -71,7 +71,7 @@ jobs:
           context: .
           file: ./Dockerfile-base-noble
           push: true
-          tags: gvoze32/cloud9-base:noble
+          tags: gimanelizabeth899/cloud9-base:noble
 
   build-latest:
     runs-on: ubuntu-latest
@@ -94,4 +94,4 @@ jobs:
           context: .
           file: ./Dockerfile-base-noble
           push: true
-          tags: gvoze32/cloud9-base:latest
+          tags: gimanelizabeth899/cloud9-base:latest

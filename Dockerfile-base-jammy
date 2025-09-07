@@ -5,7 +5,7 @@ FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy
 ARG BUILD_DATE
 ARG VERSION
 LABEL build_version="c9cli version:- ${VERSION} Build-date:- ${BUILD_DATE}"
-LABEL maintainer="gvoze32"
+LABEL maintainer="gimanelizabeth899"
 
 # add files from c9base
 COPY --from=builder /buildout/ /
